@@ -51,11 +51,32 @@
                 <option value="SE">SE</option>
                 <option value="TO">TO</option>
             </select>
+            <h6 class="pizza">PIZZA</h6>
+            <input type="radio" class="tamanho" value="valor">P
+            <input type="radio" class="tamanho" value="valor">M
+            <input type="radio" class="tamanho" value="valor">G
+            <select class="sabor" style="border: 1px solid black" name="sabor">
+            <option value="calabresa">Calabresa</option>
+            <option value="portuguesa">Portuguesa</option>
+            <option value="napolitano">Napolitano</option>
+            <option value="escarola">Escarola</option>
+            </select><br>
+            <input type="radio" class="borda" value="valor">NORMAL<br>
+            <input type="radio" class="borda" value="valor">CATUPIRY<br>
+            <input type="radio" class="borda" value="valor">CHEDDAR<br>
+            <h6 class="pagamento">PAGAMENTO</h6>
+            <select class="forma-pag" style="border: 1px solid black" name="pagamento">
+            <option value="crédito">Cartão de Crédito</option>
+            <option value="débito">Cartão de Débito</option>
+            <option value="dinheiro">Dinheiro</option>
+            </select>
+            <label for="troco" class="troco">Troco Para:</label>
+            <input name="troco" id="troco" class="troco" style="border: 1px solid black" type="text">
+            <button type="submit" class="botão">REALIZAR PEDIDO</button>
         </fieldset>
     </form>
+
 </div>
-
-
 <script src="bootstrap-5/bootstrap.bundle.min.js"></script>
 <script src="js/funcoes.js"></script> 
 </body>
