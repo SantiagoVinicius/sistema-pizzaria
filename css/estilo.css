@@ -1,0 +1,97 @@
+body{
+    background: url(../images/fundo.jpg);
+line-height: 1.6;
+overflow-x: hidden;
+}
+.circulo{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: white;
+position: absolute;
+left: 100px;
+top: 50px;
+border: 2px solid black;
+}
+h1{
+    position: absolute;
+    left: 115px;
+    top: 140px;
+}
+h3{
+    position: absolute;
+    left: 150px;
+    top: 110px;
+}
+.titulo-d{
+    position: absolute;
+    left: 500px; 
+    top: 120px
+}
+.nome{
+  position: absolute;
+  left: 500px; 
+  top:160px;
+ 
+}
+.titulo{
+    position: absolute;
+    left: 500px; 
+    top: 138px;
+}
+.end{
+    position: relative;
+    left: 720px;
+top: 65px;
+}
+.cidade{
+    position: relative;
+    left: 500px;
+    top: 67px;
+    
+}
+.est{
+    position: relative;
+    left: 720px;
+    top: 40px;
+}
+.titulo-p{
+    position: absolute;
+    left: 500px; 
+    top: 300px;
+}
+.tamanho,.sabor{
+    position: relative;
+    left: 440px;
+    top: 150px;
+}
+.borda{
+    position: relative;
+    left: 710px;
+    top: 120px;
+}
+.titulo-pag{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+.forma-pag{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}
+.troco{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}
+.botão{
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+
+.table{
+    position: relative;
+    top: 200px;
+}
