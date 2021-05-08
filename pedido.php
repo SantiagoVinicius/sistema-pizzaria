@@ -77,7 +77,6 @@ if(isset($pedido)){
         '{$pedido['pag']}',
         '{$pedido['troco']}'
         );";
-
         mysqli_query($conexao , $sqlInserir);}
 include "tamplate.php";
 ?>
